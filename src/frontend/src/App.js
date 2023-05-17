@@ -221,7 +221,7 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Abdo</Footer>
+            <Footer style={{textAlign: 'center'}}>Testing CICD pipeline</Footer>
         </Layout>
     </Layout>
 }
