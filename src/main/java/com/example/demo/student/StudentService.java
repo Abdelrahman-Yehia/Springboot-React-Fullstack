@@ -28,7 +28,7 @@ public class StudentService {
     public void deleteStudent(Long studentId) {
         // check if student exists
         if (!studentRepository.existsById(studentId)) {
-            throw new StudentNotFoundException("does not exist!");
+            throw new StudentNotFoundException("Student does not exist!");
         }
         studentRepository.deleteById(studentId);
     }
