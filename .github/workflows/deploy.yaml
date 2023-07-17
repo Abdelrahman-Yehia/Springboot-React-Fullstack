@@ -10,8 +10,8 @@ env:
   # Postgres
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: demo_db
-  POSTGRESQL_USER: postgres
-  POSTGRESQL_PASSWORD: password
+  POSTGRESQL_USER: abdoabdo
+  POSTGRESQL_PASSWORD: abood3al7dood
   # Java
   JAVA_VERSION: 1.11
   # DockerHub
