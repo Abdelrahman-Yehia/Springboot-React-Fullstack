@@ -18,8 +18,8 @@ env:
   DOCKER_HUB_USERNAME: akayehia
   # AWS & Elastic Bean Stalk
   AWS_REGION: eu-west-1
-  EB_ENVIRONMENT_NAME: DemoApp-env
-  EB_APPLICATION_NAME: DemoApp
+  EB_ENVIRONMENT_NAME: MyApp-env-1
+  EB_APPLICATION_NAME: MyApp
   EB_DEPLOYMENT_PACKAGE: elasticbeanstalk/docker-compose.yaml
 
 jobs:
