@@ -27,6 +27,8 @@ public class SecurityConfig {
                 .authorizeRequests()
                 .antMatchers("/api/v1/auth/**")
                 .permitAll()
+                .antMatchers("/")
+                .permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
