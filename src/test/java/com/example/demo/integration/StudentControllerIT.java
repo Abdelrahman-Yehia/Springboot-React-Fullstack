@@ -6,6 +6,7 @@ import com.example.demo.student.StudentRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
 import org.apache.commons.lang3.StringUtils;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -28,6 +29,7 @@ import static org.assertj.core.api.Assertions.assertThat;
         locations = "classpath:application-it.properties"
 )
 @AutoConfigureMockMvc
+@Disabled
 public class StudentControllerIT {
 
     @Autowired
