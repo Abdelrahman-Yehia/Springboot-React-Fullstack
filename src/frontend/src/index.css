@@ -120,7 +120,7 @@
 /*  align-items: flex-end;*/
 /*}*/
 
-@import 'node_modules/antd/dist/antd.css';
+@import '~antd/dist/antd.css';
 
 body {
   margin: 0;

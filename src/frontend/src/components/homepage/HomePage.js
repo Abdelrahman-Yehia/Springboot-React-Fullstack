@@ -25,7 +25,7 @@ import {
 } from '@ant-design/icons';
 import StudentDrawerForm from "./forms/StudentDrawerForm";
 
-import '../../styles/App.css';
+import '../../App.css';
 import {errorNotification, successNotification} from "./Notification";
 
 
