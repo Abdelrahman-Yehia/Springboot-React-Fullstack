@@ -1,6 +1,5 @@
 import React from "react";
 import { useRef, useState, useEffect, useContext } from "react/index";
-import HomePage from "./homepage/HomePage";
 import AuthContext from "../context/AuthProvider";
 
 import axios from '../api/axios'
