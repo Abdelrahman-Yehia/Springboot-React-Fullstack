@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   backend:
-    image: "akayehia/spring-react-fullstack:3.8.2023.5.39.51"
+    image: "akayehia/spring-react-fullstack:7.8.2023.9.45.45"
     ports:
       - "80:8080"
     restart: "always"
